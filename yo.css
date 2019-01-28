@@ -1,0 +1,320 @@
+
+/* GENERAL */
+
+body{
+	position: relative;
+}
+
+.sectionTitle{
+	text-align: center;
+	margin: 40px auto 0 auto;
+	color: rgb(80, 80, 80);
+	font-family: 'Maven Pro', sans-serif;
+	text-transform: uppercase;
+	font-weight: medium;
+}
+
+.sectionSubTitle{
+	color: rgb(40, 40, 40);
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.shadowTitle{
+	text-shadow: 1px 1px rgb(90, 90, 90);
+}
+
+.orange{
+	color: #ffba00;
+}
+
+
+/*Main container */
+
+#mainC{
+	text-align: center;
+	background-image: url(images/container.png);
+	background-size: cover;
+	background-attachment:fixed;
+	height: 92vh;
+}
+
+.accroche{
+	margin: 0 auto;
+}
+
+h2{
+	color: white;
+	text-transform: uppercase;
+	margin: 12% auto 0 auto;
+	font-size: 3em;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: bold;
+}
+
+h4{
+	color:white;
+	margin-top: 30px;
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+}
+
+#callToActionForm1{
+	margin: 100px auto 20px auto;
+}
+
+.form-control{
+	max-width: 400px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.explanations{
+	color:white;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+#actionCall{
+	min-width: 300px;
+	height: 50px;
+	font-size: 24px;
+	letter-spacing: 1px;
+	background-color: #ffba00;
+	filter: grayscale(50%);
+	color: black;
+	font-family: 'Dancing Script', cursive;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-shadow: 1px 2px 2px rgba(25, 25, 25, 0.8), 1px 4px 4px rgba(12, 12, 12, 0.4);
+	outline: none !important;
+  	filter:none !important;
+  	animation: dingDing 10s infinite;
+  	animation-delay: 3s;
+  	text-shadow: 0.5px 0.5px rgb(220, 220, 220);
+}
+
+#actionCall:active{
+	box-shadow: 1px 1px 1px rgba(25, 25, 25, 0.8), 1px 3px 3px rgba(12, 12, 12, 0.4), inset 1px 3px 3px rgba(19, 14, 10, 0.1);
+	outline: none !important;
+}
+
+@keyframes dingDing {
+  0%{
+    transform: rotate(0deg);
+  }
+  1%{
+    transform: rotate(20deg);
+  }
+  2%{
+    transform: rotate(-20deg);
+  }
+  3%{
+    transform: rotate(20deg);
+  }
+  4%{
+    transform: rotate(0deg);
+  }
+}
+
+
+/* NAVBAR */
+
+.navbar{
+	height:8vh;
+	background-color: white;
+	border-bottom:1px solid rgb(222, 222, 222);
+}
+
+.navbar-brand{
+	font-size:12px;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-family: 'Maven Pro', sans-serif;
+	letter-spacing: 1px;
+	font-weight: bold;
+	height:8vh;
+}
+
+#navbarItems{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbarItems li{
+	margin-right: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+
+#navbarItems li a:hover{
+  color:#ffba00;
+}
+
+.active{
+  color: #ffba00 !important;
+}
+
+
+/* CONCEPT */
+
+#myConcept{
+	background-color: #fff;
+}
+
+#concept2{
+	margin-top:80px;
+	margin-bottom: 80px;
+}
+
+.conceptPics{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0px;
+	max-height: 90%;
+	max-width: 90%;
+}
+
+.paraTitle{
+	text-align:center;
+	font-weight: bold;
+}
+
+.paraConcept{
+	color: rgb(60, 60, 60);
+	text-align: justify;
+}
+
+.spanOrange{
+	color:#ffba00;
+}
+
+.spanBold{
+	font-weight: bold;
+}
+
+/* HOW IT WORKS */
+
+#howItWorks{
+	background-color: rgb(230, 230, 230);
+	padding-top:20px;
+}
+
+.steps{
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	color: rgb(40, 40, 40);
+	border: 1px solid rgb(40, 40, 40);
+	box-shadow: 1px 1px rgb(255, 255, 255), inset 1px 1px rgb(255, 255, 255);
+	text-align:center;
+	display:flex;
+}
+
+.numHow{
+	font-size: 1.6em;
+	font-weight: bold;
+	margin: auto;
+}
+
+.descriptionWork{
+	text-align: center;
+	margin:50px auto;
+}
+
+
+/* Fixed Background */
+#lisbonBackground{
+	background-image:url("images/lisbon.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#whiteBoard{
+	padding: 0;
+}
+/* ABOUT US */
+
+#aboutUs{
+	background-color: white;
+	text-align: center;
+	padding: 0 !important;
+}
+
+#headC{
+	max-width: 450px;
+	max-height: 300px;
+}
+
+
+#containAbout{
+	padding: 80px;
+	margin-bottom: 20px;
+}
+
+.paraAbout{
+	font-family: 'Maven Pro', sans-serif;	
+}
+
+/* Cutcut */
+
+#cutcut{
+	text-align: center;
+	height:220px;
+}
+
+#cutcutTitle{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Maven Pro', sans-serif;
+	line-height: 220px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+/* CONTACT */
+
+#contact{
+	margin-bottom: 40px;
+	background-color: white;
+	padding: 40px;
+}
+
+#contactTitle{
+	margin: 0 auto;
+}
+
+#contactF{
+	text-align: center;
+}
+
+/* Cause rows of textaera is not respect otherwise*/
+textarea[rows] {
+  height: auto;
+  min-height: 0;
+  max-height: none;
+}
+
+
+/*footer*/
+
+footer{
+	background-color: rgb(45, 45, 45);
+	min-height: 100px;
+	max-height: 200px;
+	text-align: center;
+	padding: 30px;
+}
+#paraFooter{
+	font-size: 14px;
+	color: rgb(145, 145, 145);
+	line-height: 100px;
+}
+
